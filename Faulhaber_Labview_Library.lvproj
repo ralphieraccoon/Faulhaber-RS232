@@ -20,18 +20,33 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Configuration" Type="Folder">
-			<Item Name="Scan_Controller.vi" Type="VI" URL="../Scan_Controller.vi"/>
+			<Item Name="Load_Acceleration.vi" Type="VI" URL="../VI/Load_Acceleration.vi"/>
+			<Item Name="Load_Deceleration.vi" Type="VI" URL="../VI/Load_Deceleration.vi"/>
+			<Item Name="Load_Max_Current.vi" Type="VI" URL="../VI/Load_Max_Current.vi"/>
+			<Item Name="Load_Max_Velocity.vi" Type="VI" URL="../VI/Load_Max_Velocity.vi"/>
+			<Item Name="Load_Position_Limit.vi" Type="VI" URL="../VI/Load_Position_Limit.vi"/>
+			<Item Name="Scan_Controller.vi" Type="VI" URL="../VI/Scan_Controller.vi"/>
 		</Item>
 		<Item Name="Motion" Type="Folder">
-			<Item Name="Initiate_Motion.vi" Type="VI" URL="../Initiate_Motion.vi"/>
-			<Item Name="Load_Acceleration.vi" Type="VI" URL="../Load_Acceleration.vi"/>
-			<Item Name="Load_And_Intitiate_Velocity.vi" Type="VI" URL="../Load_And_Intitiate_Velocity.vi"/>
-			<Item Name="Load_Deceleration.vi" Type="VI" URL="../Load_Deceleration.vi"/>
-			<Item Name="Load_Max_Velocity.vi" Type="VI" URL="../Load_Max_Velocity.vi"/>
-			<Item Name="Load_Position.vi" Type="VI" URL="../Load_Position.vi"/>
-			<Item Name="Wait_For_Position.vi" Type="VI" URL="../Wait_For_Position.vi"/>
+			<Item Name="Initiate_Motion.vi" Type="VI" URL="../VI/Initiate_Motion.vi"/>
+			<Item Name="Load_And_Intitiate_Velocity.vi" Type="VI" URL="../VI/Load_And_Intitiate_Velocity.vi"/>
+			<Item Name="Load_Position.vi" Type="VI" URL="../VI/Load_Position.vi"/>
+			<Item Name="Read_Current.vi" Type="VI" URL="../VI/Read_Current.vi"/>
+			<Item Name="Read_Position.vi" Type="VI" URL="../VI/Read_Position.vi"/>
+			<Item Name="Wait_For_Position.vi" Type="VI" URL="../VI/Wait_For_Position.vi"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="SubVI" Type="Folder">
+			<Item Name="Validate Command.vi" Type="VI" URL="../SubVI/Validate Command.vi"/>
+		</Item>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
