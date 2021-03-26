@@ -33,7 +33,8 @@
 			<Item Name="Load_Position.vi" Type="VI" URL="../VI/Load_Position.vi"/>
 			<Item Name="Read_Current.vi" Type="VI" URL="../VI/Read_Current.vi"/>
 			<Item Name="Read_Position.vi" Type="VI" URL="../VI/Read_Position.vi"/>
-			<Item Name="Wait_For_Position.vi" Type="VI" URL="../VI/Wait_For_Position.vi"/>
+			<Item Name="Read_Velocity.vi" Type="VI" URL="../VI/Read_Velocity.vi"/>
+			<Item Name="Wait_For_Notification.vi" Type="VI" URL="../VI/Wait_For_Notification.vi"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
 			<Item Name="Validate Command.vi" Type="VI" URL="../SubVI/Validate Command.vi"/>
@@ -42,6 +43,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
