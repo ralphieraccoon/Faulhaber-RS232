@@ -6,7 +6,7 @@
 		<Property Name="CCSymbols" Type="Str">OS,Win;CPU,x86;</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Faulhaber RS232.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Faulhaber RS232/Faulhaber RS232.lvlib"/>
+		<Item Name="Faulhaber RS232.lvlib" Type="Library" URL="../Faulhaber RS232.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
