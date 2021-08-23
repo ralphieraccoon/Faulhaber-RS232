@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="19008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for Faulhaber motor controllers over RS232.
 
 Compatible with the following models:
@@ -55,6 +56,11 @@ MCDC 300x RS
 			<Item Name="Status.mnu" Type="Document" URL="../Public/Status/Status.mnu"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
+			<Item Name="Conversion" Type="Folder">
+				<Item Name="Conversion.mnu" Type="Document" URL="../Public/Utility/Conversion/Conversion.mnu"/>
+				<Item Name="Get Encoder Value.vim" Type="VI" URL="../Public/Utility/Conversion/Get Encoder Value.vim"/>
+				<Item Name="Get Motor Angle.vim" Type="VI" URL="../Public/Utility/Conversion/Get Motor Angle.vim"/>
+			</Item>
 			<Item Name="Scan_Controller.vi" Type="VI" URL="../Public/Utility/Scan_Controller.vi"/>
 		</Item>
 		<Item Name="dir.mnu" Type="Document" URL="../Public/dir.mnu"/>
