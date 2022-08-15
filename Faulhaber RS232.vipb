@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-08-06 20:51:38" Modified_Date="2021-08-20 13:09:11" Creator="djcro" Comments="" ID="666526f33201987734b820d055394f56">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-08-06 20:51:38" Modified_Date="2022-08-15 17:44:32" Creator="djcro" Comments="" ID="61f95a7adf414cd4998d79d1a64e7890">
   <Library_General_Settings>
     <Package_File_Name>Faulhaber_RS232</Package_File_Name>
-    <Library_Version>0.0.0.4</Library_Version>
+    <Library_Version>0.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>build</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>Damian Crosby</Packager>
       <URL/>
-      <Release_Notes>- Changed Conversion VI's to accept non-integer encoder resolutions.</Release_Notes>
+      <Release_Notes>- Fixed Acceleration/Deceleration VI's.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -179,6 +179,7 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -264,7 +265,7 @@
         <Path>Public\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8E34CF1B86A1650176A4BDFEED6826C</GUID>
+      <GUID>88D4D5B72B7BC6988F5BE4D1114821A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -383,7 +384,7 @@
         <Path>Public\Configure\Set_Mode.vi</Path>
         <VI_Title>Set Mode</VI_Title>
       </Items_Data>
-      <GUID>DC99FCAEB619BA31B0F3E3113FFEA5DA</GUID>
+      <GUID>C6B4B7835EC9F44DA276FE12BBDB0B67</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +461,7 @@
         <Path>Public\Motion\Position</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF8F431FC3D56CD78542230B46BA8A73</GUID>
+      <GUID>94FDE20CC60FA136161BE6AB2163E2D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -523,7 +524,7 @@
         <Path>Public\Status\Read_Velocity.vi</Path>
         <VI_Title>Read Velocity</VI_Title>
       </Items_Data>
-      <GUID>78EE339891068B17D4223F744E92CDD8</GUID>
+      <GUID>7102EEBB9E67ABFA0B58D92DCA009A83</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -572,7 +573,7 @@
         <Path>Public\Utility\Conversion</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C03E3185DDFFBAF9979ED590A8CCA3A</GUID>
+      <GUID>255461CD49CA13F738AF95B2B3EEFC4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -621,7 +622,7 @@
         <Path>Public\Motion\Notification\Wait_For_Notification.vi</Path>
         <VI_Title>Wait For Notification</VI_Title>
       </Items_Data>
-      <GUID>E493D0C2EB1AF8274C8C98D70D55754C</GUID>
+      <GUID>B155E28BDF405C5AAD72D44C6EB27507</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -670,7 +671,7 @@
         <Path>Public\Motion\Position\Load_Position.vi</Path>
         <VI_Title>Load Position</VI_Title>
       </Items_Data>
-      <GUID>73A08D53B28DDB4498EC93E3F3FFED51</GUID>
+      <GUID>1A1C0ECB176E3849B9774379EA523C42</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -719,7 +720,7 @@
         <Path>Public\Utility\Conversion\Get Motor Angle.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AACE10AF7D6457CB93EC5E2097DB14CB</GUID>
+      <GUID>09C72A354EC983B82FB9C7094F53A4A8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
